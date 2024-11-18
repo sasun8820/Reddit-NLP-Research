@@ -23,12 +23,12 @@
 
 #### Sentiment Analysis
 - Applied **BERT’s pre-trained model** on Hugging Face to classify posts into six sentiment categories:
-  - Positive
-  - Negative
-  - Neutral
-  - Anger
-  - Sadness
   - Joy
+  - Sadness
+  - Anger
+  - Surpirse
+  - Fear
+  - Love 
 - Tokenized and cleaned text data using standard NLP preprocessing steps.
 
 ### Visualization
@@ -38,5 +38,31 @@
 
 
 ## Data 
+### Sources
+- **Reddit Posts**: Collected from public subreddits discussing opioids and related substances using the **PRAW API**.
+- **Keywords**: A curated list of opioid-related terms and polysubstance slang terms, categorized into drug types.
+- **Data Volume**:
+  - Over **33,000 posts** processed, covering a wide range of drug-related discussions (From 2024 Jan to 2024 Jul)
 
-## Results 
+## Results
+
+### Co-occurrence Analysis
+- **Heatmaps**:
+  - Revealed frequent pairings of substances
+- **Network Graphs**:
+  - Showed complex relationships between substances, highlighting polysubstance use patterns, such as meth & cocaine
+- **Mutual Information**:
+  - **Key Substance Pairings** (Top Mutual Information Scores):
+  - Ketamine & Klonopin
+  - Benzos & Klonopin
+  - Heroin & Methamphetamine
+  - Cocaine & Methamphetamine
+  - Fentanyl & Xylazine
+- These pairings indicate substances frequently mentioned together, potentially suggesting co-usage or shared contexts in user discussions.
+
+
+### Sentiment Analysis
+- Posts were classified into six sentiment categories, providing insights into public perceptions and emotions.
+  - **Key Observations**:
+    - Posts with **joy** took priority, especially in recreational or celebratory contexts, often linked to experiences involving hallucinations 
+    - Negative sentiments like **sadness** and **fear** followed, oftenn reflecting distress or concern in discussions of high-risk substance use
