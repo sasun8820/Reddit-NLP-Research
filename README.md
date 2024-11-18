@@ -7,8 +7,4 @@
 
 ## Data 
 
-## Limitation 
-
-## Resources 
-
-## References (Literature) 
+## Results 
