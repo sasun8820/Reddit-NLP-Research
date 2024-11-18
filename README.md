@@ -1,25 +1,25 @@
 # Reddit NLP Project
 - Collaboration with the Mailman School of Public Health at Columbia University, under the guidance of Dr. Kechna Cadet and Dr. Silvia Martins
 
-
 ## Project Overview 
 - Aimed to analyze opioids-related polysubstance use data from Reddit using natural language processing (NLP) techniques. The goal was to uncover hidden patterns in drug use and sentiment trends, offering valuable insights into public health concerns surrounding polysubstance abuse.
 ### Key objectives:
-- Retrieve and preprocess Reddit data to identify polysubstance use discussions.
-- Compute co-occurrence metrics to understand relationships between substances.
-- Classify posts into sentiment categories to assess public perception and trends.
+- Retrieve and preprocess Reddit data to identify polysubstance use discussions
+- Compute co-occurrence metrics to understand relationships between substances
+- Classify posts into sentiment categories to assess public perception and trends
 
 ## Methodology
 
 ### Data Acquisition
-- Utilized the **PRAW API** to scrape drug-related posts from Reddit.
-- Extracted data using a comprehensive list of substance-specific keywords and slang terms.
+- Utilized the **PRAW API** to scrape drug-related posts from Reddit
+- Extracted data using a comprehensive list of substance-specific keywords and slang terms
 
 ### Data Analysis
 #### Co-occurrence Metrics
-- Computed co-occurrence metrics between drug mentions.
-- Created **heatmaps** to visualize frequent substance pairings.
-- Generated **network graphs** to explore relationships between substances.
+- Computed co-occurrence metrics between drug mentions
+- Created **heatmaps** to visualize frequent substance pairings
+- Generated **network graphs** to explore relationships between substances
+- Computed **mutual information** scores to quantify the dependency between terms and identify significant co-occurrence patterns
 
 #### Sentiment Analysis
 - Applied **BERT’s pre-trained model** on Hugging Face to classify posts into six sentiment categories:
