@@ -60,9 +60,11 @@
   - Fentanyl & Xylazine
 - These pairings indicate substances frequently mentioned together, potentially suggesting co-usage or shared contexts in user discussions.
 
-
 ### Sentiment Analysis
 - Posts were classified into six sentiment categories, providing insights into public perceptions and emotions.
   - **Key Observations**:
     - Posts with **joy** took priority, especially in recreational or celebratory contexts, often linked to experiences involving hallucinations 
     - Negative sentiments like **sadness** and **fear** followed, oftenn reflecting distress or concern in discussions of high-risk substance use
+
+## Acknowledgement
+- Supported by the **Data Science Institute (DSI) Scholar Program** at Columbia University, providing resources and mentorship.
